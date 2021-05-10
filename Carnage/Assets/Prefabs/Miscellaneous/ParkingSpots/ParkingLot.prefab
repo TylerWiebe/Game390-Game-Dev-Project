@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7306547712408576938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7306547712408576939}
+  - component: {fileID: 7306547712408576936}
+  - component: {fileID: 7043952678483763973}
+  m_Layer: 0
+  m_Name: ParkingLot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7306547712408576939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306547712408576938}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7306547712408576936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306547712408576938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4bdccd40b887545b7bc9f4305475bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parkedCars:
+  - {fileID: 100000, guid: 3c08aff2ef951194b8925cdded7ec3b8, type: 3}
+  - {fileID: 100000, guid: d09a964ced5836b4ebb7952b3c62fd84, type: 3}
+  - {fileID: 100000, guid: cb2a20ac02c20e74abb056fc15944ee7, type: 3}
+  - {fileID: 100000, guid: d2cae8cbe2583924ea2ce2a6644b7da9, type: 3}
+  - {fileID: 100000, guid: 3a6b3b3cbef4bd547ba26fa2fb59dd21, type: 3}
+  - {fileID: 100000, guid: 224d32f570b8ddb48904f4996af0c1b8, type: 3}
+  - {fileID: 100000, guid: eb85967c5c50a1e47a6c0bd1bc4125b8, type: 3}
+  - {fileID: 100008, guid: 83ca4f42a9302344f86dd4a182495cd1, type: 3}
+  - {fileID: 100000, guid: c2e3939a868931049abc3432dad0e4da, type: 3}
+  - {fileID: 100000, guid: 5e50cc97e2ae1654eafc1c06b0598c38, type: 3}
+  - {fileID: 100000, guid: ff30cb6d8d4b98a429d9e2e553f721bb, type: 3}
+  - {fileID: 100000, guid: 214ac0e4fb1431a4aacd7761fe8ce74c, type: 3}
+  - {fileID: 100000, guid: 69e19b5c7e7b40240a1c0f75ac2fd99a, type: 3}
+  - {fileID: 100000, guid: 290feb150f3db75419528a6cdae85814, type: 3}
+  emptyParkingStall: {fileID: 8235741478766706950, guid: b48036f35fc7cd242bc67ce703e0d29a,
+    type: 3}
+--- !u!114 &7043952678483763973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306547712408576938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents: []
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

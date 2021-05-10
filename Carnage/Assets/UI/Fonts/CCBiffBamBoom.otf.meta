@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: c024a8271d4c7ef4db72fb9d8a722afa
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CCBiffBamBoom
+  fontNames:
+  - CCBiffBamBoom
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 756eb461b68c6ce4c96bce8a76af4686, type: 3}
+  - {fileID: 12800000, guid: db4efb970423d364daef796c86b13177, type: 3}
+  - {fileID: 12800000, guid: 4882ebeaf67644a4abf923963c74d322, type: 3}
+  - {fileID: 12800000, guid: 4136eb1f35805474faac3133dadadfc2, type: 3}
+  - {fileID: 12800000, guid: 92794aff1af2cf34c9fea46c32de6c7d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

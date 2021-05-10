@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b29949cd6df19b245be6ceb506c7a922
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - NoPowerUpIcon: {fileID: 21300000, guid: 7efec5020527d864796f2e05a69cfda0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
